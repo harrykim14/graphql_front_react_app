@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+## GraphQL 풀스택 웹 개발입문(Django + React/Apollo Client)
+[django로 작성한 GraphQL](https://github.com/harrykim14/django_graphql)을 사용한 프론트 페이지를 구축
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* React와 Apollo Client를 사용하여 쿼리와 뮤테이션의 사용법을 익힘
+<image src="https://user-images.githubusercontent.com/67398691/112267145-5ef64100-8cb8-11eb-8101-6c1e79e894aa.png" width="800px"/>
 
-## Available Scripts
+(Figure 01: 전체 화면)
 
-In the project directory, you can run:
+* [쿼리와 뮤테이션](https://github.com/harrykim14/graphql_front_react_app/blob/main/src/queries.js)을 사용하여 데이터를 가져오거나 조작해 봄
 
-### `yarn start`
+* 이름과 입사년도를 입력하고 부서 옵션을 선택하여 사원을 추가(파란색)하거나 사원 이름 오른쪽의 수정 아이콘으로 수정(라임색), 휴지통 아이콘을 클릭하여 삭제할 수 있다
+* 각 항목의 세부 사항은 맨 오른쪽 아이콘을 클릭하여 세부 정보를 볼 수 있다(빨간색)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<image src="https://user-images.githubusercontent.com/67398691/112267679-29058c80-8cb9-11eb-95b7-b86cc336ba1c.png" width="800px" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+(Figure 02: 사원 항목의 CRUD를 나타낸 이미지)
 
-### `yarn test`
+* Icontains를 사용하여 부분일치된 데이터를 가져올 수 있으며, 기존 RDBMS(예: ORACLE DB, MySQL 등)에서 사용하는 AND나 OR 조건 없이 데이터를 가져올 수 있다
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<image src="https://user-images.githubusercontent.com/67398691/112268074-c19c0c80-8cb9-11eb-8f51-7e3f26f73a42.png" width="800px" />
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(Figure 03: 조건별 데이터와 페이지네이션 기능의 구현)
