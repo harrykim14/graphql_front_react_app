@@ -1,0 +1,21 @@
+.filterByAnd_search {
+    color: dimgray;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.filterByAnd_list {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.filterByAnd_item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.filterByAnd_input {
+    margin-right: 10px;
+}

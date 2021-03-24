@@ -1,0 +1,20 @@
+.deptList_input {
+    margin-right:10px;
+}
+
+.deptList_list {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.deptList_item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.deptList_delete {
+    color: dimgray;
+    cursor: pointer
+}
